@@ -7,7 +7,7 @@
 namespace LianaCore;
 
 
-class View
+class BaseView
 {
     public function test(){
         return 'TestView';

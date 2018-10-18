@@ -4,10 +4,10 @@
  * on October 18, 2018
  */
 
-namespace LianaCore;
+namespace LianaCore\Model;
 
 
-class Model
+class BaseModel
 {
     public function test(){
         return 'TestModel';

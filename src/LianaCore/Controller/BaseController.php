@@ -4,10 +4,10 @@
  * on October 18, 2018
  */
 
-namespace LianaCore;
+namespace LianaCore\Controller;
 
 
-class Controller
+class BaseController
 {
     public function test(){
         return 'TestController';
