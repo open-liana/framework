@@ -1,6 +1,7 @@
 {
     "name": "open-liana/framework",
     "description": "Open Liana Core Framework",
+    "license": "MIT",
     "require": {
         "php": ">=7.2",
         "monolog/monolog": "1.23.*"
@@ -17,5 +18,5 @@
         "psr-4": {
             "LianaCore\\": "src/LianaCore"
         }
-    } 
+    }
 }
