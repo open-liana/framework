@@ -4,7 +4,7 @@
  * on October 18, 2018
  */
 
-namespace LianaCore\Model;
+namespace LianaCore;
 
 
 class Model
