@@ -4,7 +4,8 @@
     "license": "MIT",
     "require": {
         "php": ">=7.2",
-        "monolog/monolog": "1.23.*"
+        "monolog/monolog": "1.23.*",
+        "ext-json": "*"
     },
     "authors": [
         {
