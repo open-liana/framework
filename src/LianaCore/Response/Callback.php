@@ -95,7 +95,11 @@ class Callback
             ];
     }
 
-    public function json(){
+    public function array(){
         return $this->response();
+    }
+
+    public function json(){
+        return Json::fromArray($this->response());
     }
 }
