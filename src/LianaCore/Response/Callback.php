@@ -95,11 +95,21 @@ class Callback
             ];
     }
 
-    public function array(){
+    /**
+     *  Give an array response format
+     *
+     * @return array
+     */
+    public function toArray(){
         return $this->response();
     }
 
-    public function json(){
+    /**
+     * Give an json response format
+     *
+     * @return false|string
+     */
+    public function toJson(){
         return Json::fromArray($this->response());
     }
 }
